@@ -10,8 +10,10 @@ layout: default
   </div>
 
 
-#  Evolutionary biologist and ecologist
-
+<div class="row">
+  <div class="large-12 columns text-center">
+    <h1>Evolutionary biologist and ecologist </h1>
+<p>    
 How do competitive interactions shape the ecology, population dynamics, and traits of species and communities?
 
 My current research focuses on the role of competition for light in vegetation in shaping:
@@ -24,16 +26,12 @@ I am currently employed as a post-doctoral fellow in Mark Westoby's comparative 
 
 Follow these links for contact details, research activity, and publications.
 
-<!-- 
-<div class="row">
-  <div class="large-12 columns text-center">
-    <h1>Daniel Falster</h1>
-    <p>I am postdoctoral researcher at Macquarie University, Australia. </p>
+
+    </p>
   </div>
 </div>
 
-
-  <div id="posts" class="row">
+<!--   <div id="posts" class="row">
     <div class="large-12 columns">
       {% assign index = true %}
       {% for post in paginator.posts %}
