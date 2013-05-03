@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://neverstopbuilding.net
-title: "{never stop building}"
-subtitle: "Software engineering, craftsmanship, and the persuit of quality."
-author: Jason Fox
+url: http://dfalster.github.io
+title: "{Daniel Falster}"
+subtitle: "Competition, Ecology, and Evolution."
+author: Daniel Falster
 simple_search: http://google.com/search
-description: "A technical blog about software engineering, code craftsmanship and quality development. Written by Jason Fox, a software engineer and designer."
+description: "About my research, and scattered thoughts about science. Written by Daniel Falster, a ARC postdoc at Macquarie University."
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -16,10 +16,10 @@ description: "A technical blog about software engineering, code craftsmanship an
 date_format: "%B %e, %Y"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: http://feeds.feedburner.com/neverstopbuilding/TGMp
-subscribe_email: "http://feedburner.google.com/fb/a/mailverify?uri=neverstopbuilding/TGMp&amp;loc=en_US"
+subscribe_rss: /atom.xml
+subscribe_email:
 # RSS feeds can list your email address if you like
-email: jasonrobertfox@gmail.com
+email: daniel.falster@mq.edu.au
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -58,13 +58,13 @@ default_asides: [custom/asides/about.html, asides/recent_posts.html, asides/gith
 # ----------------------- #
 
 # Github repositories
-github_user: jrobertfox
+github_user: dfalster
 github_repo_count: 4
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user: jasonrobertfox
+twitter_user: adaptive_plant
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
@@ -72,30 +72,28 @@ twitter_show_follower_count: false
 twitter_tweet_button: true
 
 # Google +1
-google_plus_one: true
+google_plus_one: false
 google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user: 109774408645971700391
+googleplus_user:
 googleplus_hidden: false
 
+# Pinboard
+pinboard_user:
+pinboard_count: 3
+
+# Delicious
+delicious_user:
+delicious_count: 3
+
 # Disqus Comments
-disqus_short_name: neverstopbuilding
+disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id: UA-37389931-1
+google_analytics_tracking_id:
 
 # Facebook Like
-facebook_like: true
-
-# ------------------ #
-#   Theme Settings   #
-# ------------------ #
-
-# Facebook
-facebook_user: jasonrobertfox
-
-# LinkedIn
-linkedin_user: jasonrobertfox
+facebook_like: false
