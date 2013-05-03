@@ -2,9 +2,9 @@
 /* humanstxt.org */
 
 /* TEAM */
-  Creator: Jason Fox
-  Site: http://neverstopbuilding.net
-  Twitter: @jasonrobertfox
+  Creator: Daniel Falster
+  Site: http://dfalster.github.io
+  Twitter: @adaptive_plant
 
 /* THANKS */
   UX Designer: Adrian Artiles
@@ -14,6 +14,10 @@
   Font Awesome Creator: Dave Gandy
   Site: http://fortawesome.github.com/Font-Awesome/
   Twitter: @byscuits
+
+  Theme: Jason Fox
+  Site: http://neverstopbuilding.net
+  Twitter: @jasonrobertfox
 
 /* SITE */
   Standards: HTML5, CSS3
