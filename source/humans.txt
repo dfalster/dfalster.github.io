@@ -1,0 +1,21 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Creator: Jason Fox
+  Site: http://neverstopbuilding.net
+  Twitter: @jasonrobertfox
+
+/* THANKS */
+  UX Designer: Adrian Artiles
+  Site: http://AdrianArtiles.com
+  Twitter: @AdrianArtiles
+
+  Font Awesome Creator: Dave Gandy
+  Site: http://fortawesome.github.com/Font-Awesome/
+  Twitter: @byscuits
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery, Foundation, Font Awesome
+  Software: Compass, Sublime Text 2, Octopress

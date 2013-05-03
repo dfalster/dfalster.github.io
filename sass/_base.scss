@@ -1,5 +1,6 @@
-@import "base/utilities";
+@import "../source/components/foundation/scss/foundation";
+$fontAwesomePath: "/components/font-awesome/font";
+@import "../source/components/font-awesome/sass/font-awesome.scss";
 @import "base/solarized";
+@import "base/syntax";
 @import "base/theme";
-@import "base/typography";
-@import "base/layout";

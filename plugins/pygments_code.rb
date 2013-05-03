@@ -21,11 +21,7 @@ module HighlightCode
       if File.exist?(path)
         highlighted_code = File.read(path)
       else
-        begin
-          highlighted_code = Pygments.highlight(code, :lexer => lang, :formatter => 'html', :options => {:encoding => 'utf-8'})
-        rescue MentosError
-          raise "Pygments can't parse unknown language: #{lang}."
-        end
+        highlighted_code = Pygments.highlight(code, :lexer => lang, :formatter => 'html', :options => {:encoding => 'utf-8'})
         File.open(path, 'w') {|f| f.print(highlighted_code) }
       end
     else

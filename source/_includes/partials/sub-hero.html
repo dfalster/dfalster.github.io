@@ -1,0 +1,14 @@
+  <header id="sub-hero">
+    <div class="row">
+      <section class="large-12 columns widget">
+        {% for post in site.posts limit: 4 %}
+        <div class="large-3 small-12 columns center">
+          <a class="fade-to-brown" href="{{ root_url }}{{ post.url }}">
+            <i class="icon-file-alt icon-3x"></i>
+          <p>{{ post.title }}</p>
+          </a>
+        </div>
+        {% endfor %}
+      </section>
+    </div>
+  </header>

@@ -4,10 +4,12 @@
 .gist-cache
 .pygments-cache
 _deploy
-public
+.themes
 sass.old
 source.old
 source/_stash
 source/stylesheets/screen.css
+source/components
 vendor
 node_modules
+public

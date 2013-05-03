@@ -1,85 +1,330 @@
-$noise-bg: image-url('noise.png') top left !default;
-$img-border: inline-image('dotted-border.png');
-
-// Main Link Colors
-$link-color: lighten(#165b94, 3) !default;
-$link-color-hover: adjust-color($link-color, $lightness: 10, $saturation: 25) !default;
-$link-color-visited: adjust-color($link-color, $hue: 80, $lightness: -4) !default;
-$link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
-
-// Main Section Colors
-$main-bg: #f8f8f8 !default;
-$page-bg: #252525 !default;
-$article-border: #eeeeee !default;
-
-$header-bg: #333 !default;
-$header-border: lighten($header-bg, 15) !default;
-$title-color: #f2f2f2 !default;
-$subtitle-color: #aaa !default;
-
-$text-color: #222 !default;
-$text-color-light: #aaa !default;
-$type-border: #ddd !default;
-
-/* Navigation */
-$nav-bg: #ccc !default;
-$nav-bg-front: image-url('noise.png') !default;
-$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11)) !default;
-$nav-color: darken($nav-bg, 38) !default;
-$nav-color-hover: darken($nav-color, 25) !default;
-$nav-placeholder: desaturate(darken($nav-bg, 10), 15) !default;
-$nav-border: darken($nav-bg, 10) !default;
-$nav-border-top: lighten($nav-bg, 15) !default;
-$nav-border-bottom: darken($nav-bg, 25) !default;
-$nav-border-left: darken($nav-bg, 11) !default;
-$nav-border-right: lighten($nav-bg, 7) !default;
-
-/* Sidebar colors */
-$sidebar-bg: #f2f2f2 !default;
-$sidebar-link-color: $link-color !default;
-$sidebar-link-color-hover: $link-color-hover !default;
-$sidebar-link-color-active: $link-color-active !default;
-$sidebar-color: change-color(mix($text-color, $sidebar-bg, 80), $hue: hue($sidebar-bg), $saturation: saturation($sidebar-bg)/2) !default;
-$sidebar-border: desaturate(darken($sidebar-bg, 7), 10) !default;
-$sidebar-border-hover: darken($sidebar-bg, 7) !default;
-$sidebar-link-color-subdued: lighten($sidebar-color, 20) !default;
-$sidebar-link-color-subdued-hover: $sidebar-link-color-hover !default;
-
-$footer-color: #888 !default;
-$footer-bg: #ccc !default;
-$footer-bg-front: image-url('noise.png') !default;
-$footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11)) !default;
-$footer-color: darken($footer-bg, 38) !default;
-$footer-color-hover: darken($footer-color, 10) !default;
-$footer-border-top: lighten($footer-bg, 15) !default;
-$footer-border-bottom: darken($footer-bg, 15) !default;
-$footer-link-color: darken($footer-bg, 38) !default;
-$footer-link-color-hover: darken($footer-color, 25) !default;
-$page-border-bottom: darken($footer-bg, 5) !default;
-
-
-/* Core theme application */
-
-a {
-  @include link-colors($link-color, $hover: $link-color-hover, $focus: $link-color-hover, $visited: $link-color-visited, $active: $link-color-active);
-}
-aside.sidebar a {
-  @include link-colors($sidebar-link-color, $hover: $sidebar-link-color-hover, $focus: $sidebar-link-color-hover, $active: $sidebar-link-color-active);
-}
-a {
-  @include transition(color .3s);
+// General Utility Classes
+.right {
+    float: right !important;
 }
 
-html {
-  background: $page-bg image-url('line-tile.png') top left;
-}
+// Theme
 body {
-  > div {
-    background: $sidebar-bg $noise-bg;
-    border-bottom: 1px solid $page-border-bottom;
-    > div {
-      background: $main-bg $noise-bg;
-      border-right: 1px solid $sidebar-border;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+}
+
+#index-wrapper {
+  background-color: #F1F1F1;
+  background: url("/images/lightpaperfibers.png");
+  margin-top: 500px;
+  border-top-color: white;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+#page-wrapper {
+  background-image: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 900px;
+}
+
+#content-wrapper {
+  background: url("/images/lightpaperfibers.png");
+  background-color: #F1F1F1;
+}
+
+#hero {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #323232;
+  background-image: url("/images/background.jpg");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 75px;
+  z-index: -1;
+  height: 550px;
+}
+
+#hero-inner {
+  margin-top: 50px;
+  h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    color: $customGrey;
+  }
+  em {
+  font-style: normal;
+  color: rgb(114, 191, 68);
+  text-shadow: 2px 2px 2px #333, 1px 1px 2px #333;
+  }
+}
+
+#sub-hero{
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #FFFFFF;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  border-bottom-color: #F1F1F1;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  box-shadow: 0 1px 0 0 #FFFFFF;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  text-align: center;
+}
+
+footer {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  border-top-color: #F1F1F1;
+  border-top-style: solid;
+  border-top-width: 1px;
+  text-align: center;
+
+  #contact {
+    background-color: #FFFFFF;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    a {
+      color: $customGrey;
+      -o-transition:color .2s ease-out, background 1s ease-in;
+      -ms-transition:color .2s ease-out, background 1s ease-in;
+      -moz-transition:color .2s ease-out, background 1s ease-in;
+      -webkit-transition:color .2s ease-out, background 1s ease-in;
+      /* ...and now override with proper CSS property */
+      transition:color .2s ease-out, background 1s ease-in;
+      &:hover, &:focus {
+        color: $customDarkGrey;
+      }
+      p {
+        font-size: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        padding-top: 1.5em;
+        font-weight: 300;
+      }
     }
+  }
+
+  #about {
+    color: rgba(0, 0, 0, 0.2);
+    padding-bottom: 1.618em;
+    padding-top: 1.618em;
+    margin: 0px;
+    p {
+      color: $customGrey;
+      font-size: 13px;
+      font-weight: 300;
+    }
+  }
+}
+
+//Elements
+#navbar {
+  margin-bottom: 0px;
+}
+
+.article-footer {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  .comment-toggle {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Nothing You Could Do', cursive;
+  }
+
+  .nav-element {
+    font-size: 10px;
+  }
+}
+
+article img {
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  border-radius: 0.3em;
+  -webkit-box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+  -moz-box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+  box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+}
+
+.fade-to-green {
+    color: $customDarkGrey;
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -ms-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    /* ...and now override with proper CSS property */
+    transition:color .2s ease-out, background 1s ease-in;
+    &:hover, &:focus {
+      color: $customGreen;
+    }
+}
+
+.fade-to-brown {
+      color: $customGrey;
+      -o-transition:color .2s ease-out, background 1s ease-in;
+      -ms-transition:color .2s ease-out, background 1s ease-in;
+      -moz-transition:color .2s ease-out, background 1s ease-in;
+      -webkit-transition:color .2s ease-out, background 1s ease-in;
+      /* ...and now override with proper CSS property */
+      transition:color .2s ease-out, background 1s ease-in;
+      &:hover, &:focus {
+        color: $customDarkGrey;
+      }
+      p {
+        font-size: 12px;
+        font-family: 'Ubuntu', sans-serif;
+        padding-top: 1.5em;
+        font-weight: 300;
+      }
+}
+
+.top-bar{
+  .name h1 {
+    line-height: 30px;
+    font-size: 0.8125em;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  input {
+    line-height: 13px;
+    font-size: 11px;
+    height: 18px;
+    padding: 0 10px;
+    position: relative;
+    top: 6px;
+  }
+}
+
+.meta {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 13px;
+  font-weight: 300;
+  color: $customGrey;
+  &.article-meta {
+    padding-left: .5em;
+    position: relative;
+    top: -1em;
+  }
+}
+
+#comments-section {
+  display: none;
+}
+
+//Article
+  .entry-content {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+  }
+
+article {
+  h1 {
+    margin-top: 1em;
+  }
+  background-attachment: scroll;
+  background-clip: padding-box;
+  margin-bottom: 30px;
+}
+
+//Code adjustments
+figure.code {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  border-radius: 0.4em;
+  border: 1px solid #e7dec3;
+  padding: 2px;
+  background-color: #fdf6e3;
+
+  div.highlight {
+    border: none !important;
+  }
+
+  table {
+  background: inherit;
+  margin-bottom: inherit;
+  border: inherit;
+
+    tr td {
+      padding: inherit;
+    }
+  }
+}
+
+.problem{
+  background-color: #ffffff;
+  @include border-radius(6px);
+  font-size: emCalc(15px);
+  min-height: 11em;
+  margin-bottom: 2em;
+  padding: 14px;
+  p {
+    color: #aaa;
+    line-height: emCalc(28px);
+    font-size: 16px;
+    font-style: italic;
+  }
+}
+
+.service-icon{
+  border-radius: 50%;
+  border: 5px solid $customDarkGrey;
+  display: inline-block;
+  padding: 15px;
+  margin: 16px;
+  background-color: $customGreen;
+  text-align: center;
+
+  span {
+    font-family: "sketchiconsboldmedium";
+    font-size: 10em;
+    width: 1em;
+    display: inline-block;
+    color: $customDarkGrey;
+  }
+}
+
+#email-capture{
+  padding-top: 5em;
+  padding-bottom: 5em;
+  p {
+    font-size: 0.9em;
+    color: $customGrey;
+  }
+
+  input {
+    font-size: emCalc(20px);
+  }
+  .button {
+    color: rgb(168, 168, 168);
   }
 }
