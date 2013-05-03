@@ -10,10 +10,10 @@ ssh_port       = "22"
 document_root  = "~/website.com/"
 rsync_delete   = false
 rsync_args     = ""  # Any extra arguments to pass to rsync
-deploy_default = "rsync"
+deploy_default = "push"
 
 # This will be configured for you when you run config_deploy
-deploy_branch  = "gh-pages"
+deploy_branch  = "master"
 
 ## -- Misc Configs -- ##
 
@@ -28,7 +28,7 @@ themes_dir      = ".themes"   # directory for blog files
 new_post_ext    = "md"  # default new post file extension when using the new_post task
 new_page_ext    = "md"  # default new page file extension when using the new_page task
 server_port     = "4000"      # port for preview server eg. localhost:4000
-prod_url        = "http://neverstopbuilding.net"
+
 
 desc "Initial setup for Octopress: copies the default theme into the path of Jekyll's generator. Rake install defaults to rake install[classic] to install a different theme run rake install[some_theme_name]"
 task :install, :theme do |t, args|
@@ -44,11 +44,6 @@ task :install, :theme do |t, args|
   cp_r "#{themes_dir}/#{theme}/sass/.", "sass"
   mkdir_p "#{source_dir}/#{posts_dir}"
   mkdir_p public_dir
-end
-
-desc "Copies the parts of the current theme to themese for distribution."
-task :package_theme do
-  theme = 'foxy-foundation'
 end
 
 #######################
@@ -121,105 +116,6 @@ task :new_post, :title do |t, args|
     post.puts "twitter: "
     post.puts "---"
   end
-end
-
-# usage rake new_draft[my-new-draft] or rake new_draft['my new draft']
-desc "Begin a new draft in #{source_dir}/#{drafts_dir}"
-task :new_draft, :title do |t, args|
-  if args.title
-    title = args.title
-  else
-    title = get_stdin("Enter a title for your post: ")
-  end
-  raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
-  mkdir_p "#{source_dir}/#{drafts_dir}"
-  filename = "#{source_dir}/#{drafts_dir}/#{title.to_url}.#{new_post_ext}"
-  if File.exist?(filename)
-    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
-  end
-  puts "Creating new draft: #{filename}"
-  open(filename, 'w') do |post|
-    post.puts "---"
-    post.puts "layout: post"
-    post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
-    post.puts "comments: true"
-    post.puts "published: false"
-    post.puts "categories: "
-    post.puts "twitter: "
-    post.puts "---"
-  end
-  system "open #{filename}"
-end
-
-# usage rake publish_draft
-desc "Select a draft to publish from #{source_dir}/#{drafts_dir} on the current date."
-task :publish_draft do
-  drafts_path = "#{source_dir}/#{drafts_dir}"
-  drafts = Dir.glob("#{drafts_path}/*.#{new_post_ext}")
-  drafts.each_with_index do |draft, index|
-    begin
-      content = File.read(draft)
-      if content =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m
-        data = YAML.load($1)
-      end
-    rescue => e
-      puts "Error reading file #{draft}: #{e.message}"
-    rescue SyntaxError => e
-      puts "YAML Exception reading #{draft}: #{e.message}"
-    end
-    puts "  [#{index}]  #{data['title']}"
-  end
-  puts "Publish which draft? "
-  answer = STDIN.gets.chomp
-  if /\d+/.match(answer) and not drafts[answer.to_i].nil?
-    mkdir_p "#{source_dir}/#{posts_dir}"
-    source = drafts[answer.to_i]
-    filename = source.gsub(/#{drafts_path}\//, '')
-    dest = "#{source_dir}/#{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{filename}"
-    puts "Publishing post to: #{dest}"
-    File.open(source) { |source_file|
-      contents = source_file.read
-      contents.gsub!(/^published: false$/, "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}")
-      File.open(dest, "w+") { |f| f.write(contents) }
-    }
-    FileUtils.rm(source)
-  else
-    puts "Index not found!"
-  end
-end
-
-# create links for syndication
-desc "Create social sharing links for the most recent post."
-task :social_links do
-  posts = Dir.glob("#{source_dir}/#{posts_dir}/*.#{new_post_ext}").sort.reverse
-  if posts[0] =~ /\d{4}-\d{2}-\d{2}-(.*)\.md/i
-    path = "#{prod_url}/"+$1
-  end
-  content = File.read(posts[0])
-  if content =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m
-    data = YAML.load($1)
-  end
-
-  #title
-  puts "\nThe title is:\n"
-  puts "#{data['title']}"
-
-  #hacker news
-  puts "\nReddit:\n"
-  puts path+"/?utm_source=hn"
-
-  #reddit
-  puts "\nHacker News:\n"
-  puts path+"/?utm_source=reddit"
-
-  #reddit
-  puts "\nTwitter:\n"
-  link = path+"/?utm_source=tw"
-  tags = ""
-  data['twitter'].each { |tag|
-    tags = tags + " #"+tag
-  }
-  puts "#{data['title']} #{link}#{tags}"
 end
 
 # usage rake new_page[my-new-page] or rake new_page[my-new-page.html] or rake new_page (defaults to "new-page.markdown")
@@ -317,18 +213,6 @@ end
 # Deploying  #
 ##############
 
-# usage rake deploy_heroku
-desc "Commits all source changes and pushes to master and heroku"
-task :deploy_heroku do
-  Rake::Task[:generate].execute
-  system "git add ."
-  message = "Updated Never Stop Building at #{Time.now.utc}"
-  system "git commit -am '#{message}'"
-  system "git push origin master"
-  system "git push heroku master"
-  Rake::Task[:social_links].execute
-end
-
 desc "Default deploy task"
 task :deploy do
   # Check if preview posts exist, which should not be published
@@ -423,13 +307,13 @@ task :setup_github_pages, :repo do |t, args|
     repo_url = args.repo
   else
     puts "Enter the read/write url for your repository"
-    puts "(For example, 'git@github.com:your_username/your_username.github.com)"
+    puts "(For example, 'git@github.com:your_username/your_username.github.io)"
     repo_url = get_stdin("Repository url: ")
   end
   user = repo_url.match(/:([^\/]+)/)[1]
-  branch = (repo_url.match(/\/[\w-]+.github.com/).nil?) ? 'gh-pages' : 'master'
+  branch = (repo_url.match(/\/[\w-]+\.github\.(?:io|com)/).nil?) ? 'gh-pages' : 'master'
   project = (branch == 'gh-pages') ? repo_url.match(/\/([^\.]+)/)[1] : ''
-  unless `git remote -v`.match(/origin.+?octopress.git/).nil?
+  unless (`git remote -v` =~ /origin.+?octopress(?:\.git)?/).nil?
     # If octopress is still the origin remote (from cloning) rename it to octopress
     system "git remote rename origin octopress"
     if branch == 'master'
@@ -447,7 +331,7 @@ task :setup_github_pages, :repo do |t, args|
       end
     end
   end
-  url = "http://#{user}.github.com"
+  url = "http://#{user}.github.io"
   url += "/#{project}" unless project == ''
   jekyll_config = IO.read('_config.yml')
   jekyll_config.sub!(/^url:.*$/, "url: #{url}")
