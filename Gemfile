@@ -13,6 +13,9 @@ gem 'stringex', '~> 1.4.0'
 gem 'liquid', '~> 2.3.0'
 gem 'highline'
 gem 'sinatra', '~> 1.3.3'
+gem 'flickraw'
+gem 'builder', '> 2.0.0'
+gem 'persistent_memoize'
 
 group :development do
   gem 'rb-fsevent', '~> 0.9'
