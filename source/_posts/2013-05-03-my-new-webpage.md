@@ -93,7 +93,7 @@ http://winawer.org/blog/
 http://timotheepoisot.fr/
 http://ivory.idyll.org/blog/category/teaching.html
 http://rossmounce.co.uk/
-
+http://www.hilarymason.com/
 Fontawesome for icons
 
 ## Research highlights:

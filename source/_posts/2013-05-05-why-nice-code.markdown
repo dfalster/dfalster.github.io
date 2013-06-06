@@ -10,6 +10,8 @@ author: Daniel Falster
 
 {% img left http://cran.r-project.org/Rlogo.jpg 150 150 %}
 
+I originally posted this article on the [niceRcode blog](http://nicercode.github.io/blog/2013-04-05-why-nice-code/).
+
 Writing code is fast becoming a key - if not the most important - skill for 
 doing research in the 21st century. As scientists, we live in extraordinary 
 times. The amount of data (information) available to us is increasingly 
@@ -22,7 +24,7 @@ manipulating data, doing stats and making plots - do not allow us to scale-up
 our analyses to match data availability, at least not without many, many more 
 'clicks'. 
 
-{% imgcap right http://nicercode.github.io/images/2013-04-05-why-nice-code/geeks-vs-nongeeks-repetitive-tasks.png Why writing code saves you time with repetitive tasks, by [Bruno Oliveira](https://plus.google.com/+BrunoOliveira/posts/MGxauXypb1Y)%}
+{% img left http://nicercode.github.io/images/2013-04-05-why-nice-code/geeks-vs-nongeeks-repetitive-tasks.png 'Why writing code saves you time with repetitive tasks, by Bruno Oliveira https://plus.google.com/+BrunoOliveira/posts/MGxauXypb1Y' %}
 
 The solution is to write scripts in programs like 
 [R](http://www.r-project.org/), [python](http://www.python.org/) or 
@@ -185,7 +187,7 @@ There are many benefits of writing nicer code:
 
 If you need further motivation, consider this advice
 
-{% imgcap centre http://nicercode.github.io/images/2013-04-05-why-nice-code/Maniac.jpg An [advisory pop-up for MS Visual C++](http://www.winsoft.se/2009/08/the-maintainer-might-be-a-maniac-serial-killer) %}
+{% img centre http://nicercode.github.io/images/2013-04-05-why-nice-code/Maniac.jpg 'An advisory pop-up for MS Visual C++' %}
 
 This might seem extreme, until you realise that the maniac serial killer is 
 **you**, and you definitely know where you live. 
@@ -215,4 +217,4 @@ It's time to write some nice R code.
 
 For further inspiration, you may like to check out Greg Wilson's great article "[Best Practices for Scientific Computing](http://arxiv.org/abs/1210.0530)." 
 
-**Acknowledgements:** This article was originally posted on the [niceRcode blog](http://nicercode.github.io/blog/2013-04-05-why-nice-code/). Many thanks to [Greg Wilson](https://twitter.com/gvwilson), [Karthik Ram](http://inundata.org/), [Scott Chameberlain](http://schamberlain.github.io/scott/) and [Carl Boettiger](http://www.carlboettiger.info/) and [Rich FitzJohn](http://www.zoology.ubc.ca/~fitzjohn/) for inspirational chats, code and work. 
+**Acknowledgements:**  Many thanks to [Greg Wilson](https://twitter.com/gvwilson), [Karthik Ram](http://inundata.org/), [Scott Chameberlain](http://schamberlain.github.io/scott/) and [Carl Boettiger](http://www.carlboettiger.info/) and [Rich FitzJohn](http://www.zoology.ubc.ca/~fitzjohn/) for inspirational chats, code and work. 
