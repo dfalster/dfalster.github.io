@@ -1,0 +1,118 @@
+Read,Genre,Author,Title,Year
+2013,Fiction,Peter Carey,The true history of the Kelly gang,
+2013,Fiction,Anna Funder,All that I am,
+2013,Fiction,Richard Patterson,Exile,
+2013,Fiction,Elliot Perlman,The Street Sweeper,
+2013,Fiction,Mary Ann Shaffer & Annie Barrows,The Guernsey Literary and Potato Peel Pie Society,2008
+2013,Science,Giles Milton,Nathaniel's Nutmeg,
+2013,Finance,Roger Montgomery,Value.able,
+2013,History,Giles Milton,Nathaniel's Nutmeg,
+2013,History,David Vise,The Goolge Story,2005
+2012,Fiction,Paul Auster,The Brooklyn Follies,2005
+2012,Fiction,Paul Auster,Man in the Dark,2008
+2012,Fiction,Alessandro Barico,Silk,1996
+2012,Fiction,Louis de Bernieres,Red dog,2001
+2012,Fiction,Richard Flanagan,The Sound of One Hand clapping,
+2012,Fiction,John le Carre,The tailor of Panama,
+2012,Fiction,Marcus Zusak,The book thief,2005
+2012,Science,Rob Brooks,Sex Genes and Rock'n'Roll,
+2012,Finance,Ross Garnaut and David Llewellyn-Smith,The Great Crash of 2008,2009
+2012,Finance,Alan Kohler,Alan Kohler's Eureka Report Guide to Personal Investing,
+2011,Fiction,Douglas Adams,Hitchhikers guide to the galaxy: the trilogy of four,1979-1984
+2011,Fiction,Ben Elton,Meltdown,2010
+2011,Fiction,Ernest Hemmingway,For Whom the Bell Tolls,1941
+2011,Fiction,Siri Hustvedt,The enchantment of Lily Dahl,1996
+2011,Fiction,Marina Lewycka,A Short History of Tractors in Ukranian,2005
+2011,Fiction,Hermann Melville,Moby Dick,1851
+2011,Fiction,Ian McEwan,Solar,2010
+2011,Fiction,George Orwell,Animal Farm,
+2011,Fiction,Zadie Smith,White teeth,2001
+2011,History,Dava Sobel,Longitude: the true story of a lone genius who solved the greatest scientific problem of his time,1996
+2010,Fiction,Janet Turner Hospital,Oyster,
+2010,Fiction,Stieg Larsson,The girl with the Dragon Tattoo,2005
+2010,Fiction,Stieg Larsson,The girl who played with fire,2006
+2010,Fiction,Stieg Larsson,The girl who kicked the hornet's nest,2007
+2010,Science,Joh Horgan,The End of Science: facing the limits of knowledge in the twilight of the scientific age,1996
+2010,Finance,Ross Gittins,"Gittinomics: Living the good life without money stress,overwork and joyless consumption",2007
+2010,History,Chloe Hooper,Tall man: life and death on Palm Island,
+2009,Fiction,Bill Bryson,Downunder,2000
+2009,Fiction,Umberto Eco,The name of the Rose,1983
+2009,Fiction,Umberto Eco,How to travel with a salmon,
+2009,Fiction,Richard Flanagan,The Unknown Terrorist,2006
+2009,Fiction,Rohinton Mistry,A Fine Balance,2001
+2009,Fiction,J.D.S Saldinger,Catcher in he Rye,
+2009,Fiction,Tim Winton,Breath,2009
+2008,Fiction,Bill Bryson,Shakespeare,
+2008,Fiction,Lewis Crofts,The Pornographer of Vienna,
+2008,Fiction,Jeffrey Eugenides,Middlesex,2002
+2008,Science,John Whitfiled,In the beat of a heart,
+2008,History,Martin Walker,The Cold War: A history,1995
+2007,Fiction,Lars Saabye Christiansen,The Beatles (Norwegian),
+2007,History,Tim Flannery,Throwim way leg,
+2007,Science,James Gleick,Chaos,
+2007,History,Tim Harford,The Logic of Life,
+2006,Fiction,Margaret Atwood,Oryx and Crake,
+2006,Fiction,George Orwell,Nineteen Eighty Four,
+2006,Fiction,Tom Robbins,Skinny Legs and All,1990
+2006,Science,Mark Ridley,Mendel's Demon,
+2006,History,Ayan Hirsi Ali,Infidel,
+2006,History,Douglas Adams and Mark Cardawine,Last chance to see,
+2005,Fiction,Dan Brown,Angels and Demons,
+2005,Fiction,Dan Brown,Deception Point,
+2005,Fiction,Jostein Gaadner,"I et speil,i en gaate (Norwegian)",1993
+2005,Fiction,Khaled Hosseini,The Kite Runner,
+2005,Fiction,Erlend Loe,Naiv Super (Norwegian),1996
+2005,Fiction,Yann Martel,Life of Pi,2004
+2005,Science,Richard Dawkins,Ancestor's tale,
+2005,Science,Richard Dawkins,Extended Phenotype,
+2005,Science,Richard Dawkins,The Devil's Chaplain,
+2005,Science,Jared Diamond,"Guns,Germs and Steel",
+2005,Science,Dan Dennett,Freedom evolves,
+2005,Science,John Maynard Smith,Major transitions in evolution,
+2005,Science,Karl Sigmund,Games of Life,
+2004,Fiction,Louis de Bernieres,The War of Don Emmanuel's Nether Parts,1990
+2004,Fiction,Louis de Bernieres,Senor Vivo and the Coca Lord,1991
+2004,Fiction,Dan Brown,The Da Vinci code,
+2004,Fiction,Will Durant,Heroes of History,
+2004,Science,Richard Dawkins,The Selfish Gene,
+2004,History,Anna Funder,Stasiland,
+2004,History,Mark Kurlansky,Cod: story of a fish that changed the world,
+2003,Fiction,Tim Winton,Cloudstreet,1991
+2003,Science,Robert Axelrod,The evolution of cooperation,
+2002,Fiction,J.R.R. Tolkien,Lord of the Rings,1949
+2002,Fiction,J.R.R. Tolkien,The Hobbit,1937
+2002,Science,John Maynard Smith,Evolution and the theory of games,
+2001,Fiction,Richard Flanagan,Death of a River Guide,1994
+2000,Fiction,Murray Bail,Eucalyptus,1998
+2000,Fiction,Louis de Bernieres,Captain Corelli's mandolin,1995
+2000,Fiction,Tom Robbins,Jitterbug Perfume,1984
+2000,Science,Sue Savage Rambagh,Kanzi,
+1999,Fiction,Ben Elton,This other eden,
+1999,Fiction,Ben Elton,Blast from the past,
+1999,Fiction,Tom Robbins,Half Asleep in Frog Pyjamas,1994
+1999,Science,Tim Flannery,The Future Eaters,
+1999,Science,Stephen Jay Gould,Wonderful Life,
+1998,Fiction,Ben Elton,Inconceivable,
+1998,Fiction,Jostein Gaadner,Christmas mystery,1992
+1998,Fiction,John Wyndham,The Trouble with Lichen,1960
+1998,Science,Richard Dawkins,Climbing mount improbable,
+1998,History,Lars Ebbesen,Unarmed to the South Pole,
+1997,Fiction,Bryce Courtney,The Power of One,
+1997,Fiction,Bryce Courtney,Tandia,
+1997,Fiction,Ben Elton,Gridlock,
+1997,Fiction,Ben Elton,Stark,
+1997,Fiction,Jostein Gaadner,Solitaire mystery,1990
+1997,Fiction,Tom Robbins,Another Roadside Attraction,1971
+1997,Fiction,Tom Robbins,Even Cowgirls Get the Blues,1976
+1997,Fiction,Tom Robbins,Still Life with Woodpecker,1980
+1997,Fiction,John Wyndham,Day of the Triffids,1951
+1996,Fiction,Jostein Gaadner,Sophie's World (Norwegian),1991
+1996,History,Robert Hughes,The Fatal Shore,
+1995,Fiction,Jane Austen,Emma,
+1995,Fiction,William Shakespeare,Much Ado about Nothing,
+1995,Fiction,William Shakespeare,King Lear,
+1994,Fiction,William Shakespeare,Romeo & Juliet,
+1993,Fiction,George Orwell,Animal Farm,
+1992,Fiction,William Shakespeare,Merchant of Venice,
+1992,Fiction,John Wyndham,The Chrysalids,1955
+1991,Fiction,William Golding,Lord of the Flies,
