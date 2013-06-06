@@ -24,7 +24,7 @@ manipulating data, doing stats and making plots - do not allow us to scale-up
 our analyses to match data availability, at least not without many, many more 
 'clicks'. 
 
-{% img left http://nicercode.github.io/images/2013-04-05-why-nice-code/geeks-vs-nongeeks-repetitive-tasks.png 'Why writing code saves you time with repetitive tasks, by Bruno Oliveira https://plus.google.com/+BrunoOliveira/posts/MGxauXypb1Y' %}
+{% img left http://nicercode.github.io/images/2013-04-05-why-nice-code/geeks-vs-nongeeks-repetitive-tasks.png 'Why writing code saves you time with repetitive tasks, by Bruno Oliveira' %}
 
 The solution is to write scripts in programs like 
 [R](http://www.r-project.org/), [python](http://www.python.org/) or 
