@@ -5,7 +5,7 @@ date: 2013-05-05 14:46
 comments: true
 categories: module
 author: Daniel Falster
-
+publish: true
 ---
 
 {% img left http://cran.r-project.org/Rlogo.jpg 150 150 %}

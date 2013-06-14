@@ -5,6 +5,7 @@ date: 2013-06-12 19:14
 comments: true
 categories: 
 twitter: 
+publish: false
 ---
 
 I use beamer for making slide presentations. I really like 
