@@ -3,27 +3,31 @@ layout: default
 ---
 
 <div id="index-wrapper">
+
   {% include partials/hero.html %}
+
   <div class="contain-to-grid sticky">
     {% include partials/navbar.html %}
   </div>
 
-    <div class="row">
-    <div class="large-12 columns text-center">
+  <div class="row">
+    <div class="large-12 columns">
       <h1>Evolutionary biologist and ecologist </h1>
-      <p>  How do competitive interactions shape the ecology, population dynamics, and traits of species and communities?
-
-        My current research focuses on the role of competition for light in vegetation in shaping:
-
-        - the diversity of growth forms found in different locations,
-        - the coordination of different traits across species, and
-        - emergent properties, such as leaf area cover and carbon storage.
-
-        I am currently employed as a post-doctoral fellow in Mark Westoby's comparative ecology lab, at Macquarie University.
-
-        Follow these links for contact details, research activity, and publications.</p>
     </div>
-</div>
+  </div>
+
+  <div class="row">
+    <div class="large-3 columns">
+    <img src="https://farm8.staticflickr.com/7380/9042795495_8b38d539be_d.jpg">
+    </div>
+    <div class="large-9 columns">
+       <p>  How do competitive interactions shape the ecology, population dynamics, and traits of species and communities?</p>
+
+        <p>Hi! My name is Daniel Falster. I am an ARC postdoctoral research fellow at Macquarie University in Sydney, Australia. I use a combination of maths, computer models, and large data sets to test fundamental ideas about the processes shaping biological communities. I am passionate about science, open data, reproducible research, and teaching biologists to code. </p>
+
+       <p> Here you will find links to my <a href="http://scholar.google.com.au/citations?hl=en&user=Ef_nLusAAAAJ&sortby=pubdate&view_op=list_works&pagesize=100">publications</a>, <a href="{{ root_url }}/blog/archives">blog</a>, and the <a href="http://nicercode.github.io/">nice R code blog</a>, which I co-author with my collabortaor <a href="http://www.zoology.ubc.ca/~fitzjohn/">Rich FitzJohn</a>. Please contact me if you are interested in my research. </p>
+    </div>
+  </div>
 
   <div id="posts" class="row">
     <div class="large-12 columns">
@@ -39,4 +43,5 @@ layout: default
       {% endfor %}
     </div>
   </div>
+
 </div>
