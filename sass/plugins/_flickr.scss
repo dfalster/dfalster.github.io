@@ -36,7 +36,7 @@ figcaption {
 
 .flickr-thumbnail h1 {
   font-size: small;
-  font-family: $sans;
+  font-family: $mono;
   text-align: center;
 }
 
@@ -100,7 +100,7 @@ figure a img, figure a video, figure a .flash-video {
 /* customization for fancybox */
 /* fonts  and layout */
 .fancybox-title, .fancybox-title h1, .fancybox-title .description {
-  font-family: $sans !important;
+  font-family: $mono !important;
   text-align: center;
 }
 

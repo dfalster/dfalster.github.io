@@ -16,6 +16,15 @@ $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 
 $mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
 
+.flex-content { max-width: 100%; height: auto; }
+
+.basic-alignment {
+  &.left { float: left; margin-right: 1.5em; }
+  &.right { float: right; margin-left: 1.5em; }
+  &.center { display:block; margin: 0 auto 1.5em; }
+  &.left, &.right { margin-bottom: .8em; }
+}
+
 .highlight, html .gist .gist-file .gist-syntax .gist-highlight {
   table td.code { width: 100%; }
   .line-numbers {
