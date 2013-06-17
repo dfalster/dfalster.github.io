@@ -26,7 +26,7 @@ It wasn't that I didn't like my old web page, rather that it was very hard to
 add content and did not work well on devices like smartphones and ipads. Written in
 plain old html, updating required expensive software like dreamweaver,
 knowledge of html, access to ftp servers and so on. These days it seems only
-technicians write html code.
+engineers write websites from scratch.
 
 Web 2.0 allows ordinary users to generate content on platforms like wordpress,
 google sites, and academia.edu, without knowing all the tech tricks. These new
@@ -52,17 +52,17 @@ platform. Dynamic platforms like [wordpress](www.wordpress.com) have become very
 popular, as they come with a set of built-in themes and plug-ins which are very
 easy to use. But they also need a lot of background infrastructure, and thus
 require you to work online in point and click mode. For that reason,  some more
-technically minded people are opting for a static site generators like Jekyll
+technically minded people are opting for a static site generators like Jekyll.
 (Read more on this
 [here](http://decomplecting.org/blog/2012/07/04/static-is-beautiful/) and
-[here](http://www.adrianartiles.com/blog/2012/09/09/why-i-chose-jekyll-slash-octopress-over-wordpress/).
+[here](http://www.adrianartiles.com/blog/2012/09/09/why-i-chose-jekyll-slash-octopress-over-wordpress/).)
 A number of scientists are using these schemes for keeping open lab notebooks,
 such as this one by [Carl Boettiger](http://carlboettiger.info/lab-notebook.html).
 
 In the end, I opted to try [Octopress](http://octopress.org/), a static website
 platform based on [Jekyll](https://github.com/mojombo/jekyll). Rich FitzJohn
 introduced me to Octopress when we started the [nice R code
-blog](http://nicercode.github.io/).Octopress sites can be hosted on github, and
+blog](http://nicercode.github.io/). Octopress sites can be hosted on github, and
 because they are used by coders passionate about open source tools, there are
 lots of sites and themes you can fork. A found of
 [list of Octopress sites](https://github.com/imathis/octopress/wiki/Octopress-Sites)
@@ -83,12 +83,12 @@ Jason's site also makes use of a couple of other modern web tools.
 vector icons that can instantly be customized. [Zurb
 foundation](http://foundation.zurb.com/) is a front-end framework that allows
 you to make responsive websites. Responsive websites adjust well on devices of
-different sizes. Octopress iss also responsive, but zurb also offers some other
-features, like the stikcy menu used on my title page, and a Flexible Grid for
+different sizes. Octopress is also responsive, but zurb also offers some other
+features, like the sticky menu used on my title page, and a Flexible Grid for
 fancy text layout (a responsive alternative to a table).
 
 My new site is hosted on github, so you can see the source code
-[here](https://github.com/dfalster/dfalster.github.io).
+[here](https://github.com/dfalster/dfalster.github.io/tree/source).
 
 # Design considerations
 
@@ -106,7 +106,8 @@ these as sources of inspiration. These include sites of [Steven Hamblin](http://
 Beyond a website, scientists can benefit from a large number of other tools and
 services. Here are some of the ones I now use, with links to my profiles.
 
-* **[Github](https://github.com/dfalster) and [bitbucket](https://bitbucket.org/dfalster/):
+* **[Github](https://github.com/dfalster) and
+[bitbucket](https://bitbucket.org/dfalster/)**:
 to cost and share code.
 
 * **[Twitter](https://twitter.com/adaptive_plant)**: to communicate with other
@@ -142,18 +143,16 @@ the next challenge, now that the site is up and working.
 I notice that many people now post slides for their talks online. There are several
 possible resources, like [slideshare](https://www.slideshare.net/). I have to
 think about which will suit me best. Of course, I can just post the items on my
-site, the  benefit of these other schemes is that they provide a permenent
+site, the  benefit of these other schemes is that they provide a permanent
 record of my talk that can be tracked.
 
 ## The ultimate publications list
 
 Currently I am just linking to google scholar for a list of my publications.
-Ultimately, I would like to generate my own list, providing links to paper, citations, [altemtrics](http://www.altmetric.com/), media and so forth.
+Ultimately, I would like to generate my own list, providing links to paper, citations, [altmetrics](http://www.altmetric.com/), media and so forth.
 
 # Acknowledgements
 Thanks to Rich FitzJohn for introducing me to Octopress and thereby setting the
  seed for this page, to the creators of Octopress, to Jason Fox at
- [NeverStopBuilding](http://neverstopbuilding.net/) for letting me adopt his
- stunning theme, and to [Adrian Artiles](http://www.adrianartiles.com/) for
- creating foxslide theme for Octopress.
+ [NeverStopBuilding](http://neverstopbuilding.net/) for letting me adopt his theme.
 
