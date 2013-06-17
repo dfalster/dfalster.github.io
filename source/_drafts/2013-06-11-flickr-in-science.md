@@ -3,14 +3,19 @@ layout: post
 title: "Flickr in science"
 date: 2013-06-07 06:22
 comments: true
-categories: 
-twitter: 
+categories:
+twitter:
 publish: false
 
 ---
 
+The first point in Flickr's two point mission statement is to help people make
+their photos available to the people who matter to them. Flickr had—and still
+has—excellent tools for this.
+
+
 Dear CTFS,
-Thanks for providing wonderful photos of the CTFS plots. I am a post-doctoral research scientist at Macquarie University studying trait evolution and working together with Joe Wright. I am interested in using some of photos in my scientific talks, so am writing to seek your permission for this. 
+Thanks for providing wonderful photos of the CTFS plots. I am a post-doctoral research scientist at Macquarie University studying trait evolution and working together with Joe Wright. I am interested in using some of photos in my scientific talks, so am writing to seek your permission for this.
 
 In particular, I would like permission to use the following pictures in academic talks about plant trait evolution:
 https://www.flickr.com/photos/ctfs/8613382833/
@@ -21,7 +26,7 @@ Also, a brief comment about your profile. All your photos seemed to have the lic
 
 I would encourage you to consider changing the license to a "Creative commons by attribution". That means "you let others copy, distribute, display, and perform your copyrighted work - and derivative works based upon it - but only if they give you credit." That would enable scientists like myself to use  a photo without having to email you first. But we would still need to attribute it the image to CTFS and include a link back to the picture's page on flickr. This license seems ideal for CTFS content, as it would maximize the use of your pictures and promotion of CTFS activities. You can read more about license here: http://www.flickr.com/account/prefs/license/
 
-Again, thanks for publishing some inspiring images of CTFS sites - it's great to see what the sites actually look like. 
+Again, thanks for publishing some inspiring images of CTFS sites - it's great to see what the sites actually look like.
 
 With best regards,
 Daniel Falster
