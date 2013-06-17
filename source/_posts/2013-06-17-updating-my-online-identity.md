@@ -28,10 +28,11 @@ plain old html, updating required expensive software like dreamweaver,
 knowledge of html, access to ftp servers and so on. These days it seems only
 engineers write websites from scratch.
 
-Web 2.0 allows ordinary users to generate content on platforms like wordpress,
-google sites, and academia.edu, without knowing all the tech tricks. These new
-sites also make it easy to include a range of content, such as images, videos,
-and code.
+[Web 2.0](http://en.wikipedia.org/wiki/Web_2.0) allows ordinary users to
+generate content on platforms like wordpress, google sites, and academia.edu,
+without knowing any html or tech tricks. These new sites also make it easy to
+include a range of content, such as images, videos, and code, using a range of
+plugins.
 
 # My requirements
 
@@ -106,30 +107,26 @@ these as sources of inspiration. These include sites of [Steven Hamblin](http://
 Beyond a website, scientists can benefit from a large number of other tools and
 services. Here are some of the ones I now use, with links to my profiles.
 
-* **[Github](https://github.com/dfalster) and
-[bitbucket](https://bitbucket.org/dfalster/)**:
-to cost and share code.
-
-* **[Twitter](https://twitter.com/adaptive_plant)**: to communicate with other
-scientists around the world. Thanks to twitter, I feel more like I am part of a vibrant community, pushing back the front frontier in science!
-
-* **[Google scholar](http://scholar.google.com/citations?user=Ef_nLusAAAAJ&hl=en&oi=sra)**: A great free resource for tracking publications and citations.
-
-* **[Scopus](http://www.scopus.com/author/profile.url?aid=6507695598)**: Another  great resource for tracking publications and
-citations, although this one is not free.
-
-* **[Orcid](http://orcid.org/0000-0002-9814-092X)**: Open, non-profit, registry of unique researcher identifiers, linking research activities and outputs to these
-  identifiers.
-
-* **[LinkedIn](http://au.linkedin.com/in/danielfalster/)**: I find linked in
-quite frustrating, but it seems to have cornered the market in the online CV
-world. I started using this for connecting with people outside academia.
-
-* **[Flickr](https://www.flickr.com/96748722@N06/)**: great photo sharing
-website.
-
-* **[bit.ly](https://bitly.com/)**: bookmark shortening website. I use this for
-posting items on twitter and sending links.
+- **[Github](https://github.com/dfalster)** and
+  **[bitbucket](https://bitbucket.org/dfalster/)**: for social coding.
+- **[Twitter](https://twitter.com/adaptive_plant)**: to communicate with other
+  scientists around the world. Thanks to twitter, I feel more like I am part of
+  a vibrant community, pushing back the front frontier in science!
+- **[Google scholar](http://scholar.google.com/citations?user=Ef_nLusAAAAJ&hl=en&oi=sra)**:
+  A great free resource for tracking publications and citations.
+- **[Scopus](http://www.scopus.com/author/profile.url?aid=6507695598)**: Another
+  great resource for tracking publications and citations, although this one is
+  not free.
+- **[Orcid](http://orcid.org/0000-0002-9814-092X)**: Open, non-profit, registry
+  of unique researcher identifiers, linking research activities and outputs to
+  these identifiers.
+- **[LinkedIn](http://au.linkedin.com/in/danielfalster/)**: I find linked in
+  quite frustrating, but it seems to have cornered the market in the online CV
+  world. I started using this for connecting with people outside academia.
+- **[Flickr](https://www.flickr.com/96748722@N06/)**: great photo sharing
+  website.
+- **[bit.ly](https://bitly.com/)**: bookmark shortening website. I use this for
+  posting items on twitter and sending links.
 
 # Outstanding challenges
 
