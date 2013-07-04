@@ -9,6 +9,13 @@ publish: false
 
 ---
 
+Great website, using content posted from flickr
+
+http://twistedsifter.com/2012/07/10-iconic-images-of-the-earth-from-space/
+http://twistedsifter.com/2012/06/star-trails-captured-from-space-on-board-iss/
+http://twistedsifter.com/2011/11/15-mind-blowing-featured-images-by-nasa/
+
+
 The first point in Flickr's two point mission statement is to help people make
 their photos available to the people who matter to them. Flickr had—and still
 has—excellent tools for this.
