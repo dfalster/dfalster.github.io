@@ -79,7 +79,7 @@ A bit more  searching yielded some answers.
   , including with a
   [semi-transparent or transparent background](http://tex.stackexchange.com/questions/18447/how-to-make-a-block-transparent-for-a-background-image).
 
-In the end, my preferred option is to was to use the
+In the end, my preferred option was to use the
 [mdframed](https://github.com/marcodaniel/mdframed) package, as the code is
 relatively concise and the package comes pre-packaged with my latex
 installation. The

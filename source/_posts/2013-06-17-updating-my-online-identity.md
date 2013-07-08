@@ -65,9 +65,9 @@ platform based on [Jekyll](https://github.com/mojombo/jekyll). Rich FitzJohn
 introduced me to Octopress when we started the [nice R code
 blog](http://nicercode.github.io/). Octopress sites can be hosted on github, and
 because they are used by coders passionate about open source tools, there are
-lots of sites and themes you can fork. A found of
+lots of sites and themes you can fork. I found a
 [list of Octopress sites](https://github.com/imathis/octopress/wiki/Octopress-Sites)
-and from that choose Jason Fox's site [NeverStopBuilding](http://neverstopbuilding.net/)
+and from that chose Jason Fox's site [NeverStopBuilding](http://neverstopbuilding.net/)
 as a good foundation. Many thanks to Jason for allowing me to fork his repo!
 
 Some nice features of Octopress:
@@ -120,8 +120,8 @@ services. Here are some of the ones I now use, with links to my profiles.
 - **[Orcid](http://orcid.org/0000-0002-9814-092X)**: Open, non-profit, registry
   of unique researcher identifiers, linking research activities and outputs to
   these identifiers.
-- **[ImpactStory](http://impactstory.org/ DanielFalster): captures the diverse impacts of your articles, datasets, software, and more.
-- **[LinkedIn](http://au.linkedin.com/in/danielfalster/)**: I find linked in
+- **[ImpactStory](http://impactstory.org/ DanielFalster)**: captures the diverse impacts of your articles, datasets, software, and more.
+- **[LinkedIn](http://au.linkedin.com/in/danielfalster/)**: I find LinkedIn
   quite frustrating, but it seems to have cornered the market in the online CV
   world. I started using this for connecting with people outside academia.
 - **[Flickr](https://www.flickr.com/96748722@N06/)**: great photo sharing
