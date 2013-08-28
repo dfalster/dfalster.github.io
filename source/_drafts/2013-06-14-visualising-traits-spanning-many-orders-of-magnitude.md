@@ -3,8 +3,8 @@ layout: post
 title: "Visualising traits spanning many orders of magnitude"
 date: 2013-06-14 08:31
 comments: true
-categories: 
-twitter: 
+categories:
+twitter:
 publish: false
 ---
 
@@ -31,17 +31,17 @@ The amazing [Powers of Ten video](http://bit.ly/17KyrR9),  made in 1977
 takes us on an adventure in magnitudes. Starting at a picnic by the lakeside in Chicago, this famous film transports us to the outer edges of the universe. Every ten seconds we view the starting point from ten times farther out until our own galaxy is visible only a s a speck of light among many others. Returning to Earth with breathtaking speed, we move inward- into the hand of the sleeping picnicker- with ten times more magnification every ten seconds. Our journey ends inside a proton of a carbon atom within a DNA molecule in a white blood cell.
 {% endblockquote %}
 
-Along similar lines, the [powersof10  website](http://www.powersof10.com/) offers an interactive version. 
+Along similar lines, the [powersof10  website](http://www.powersof10.com/) offers an interactive version.
 
 The powers of ten video and website succeed by re-framing a simple scene by showing it within ever-larger and then smaller contexts. As [Jamer Hunt suggests](http://www.fastcodesign.com/1662461/how-to-apply-eamess-legendary-powers-of-10-to-real-life-problems) people are perhaps more comfortable with the idea of scale than they were when Eames film first appeared, because the re-framing technique has been repeated several times, most notably in technologies such as google earth and maps, with allow most of us to do some re-framing on a daily basis with our phones.
 
-But of course, re-framing requires video, which is not ideal for a talk. 
+But of course, re-framing requires video, which is not ideal for a talk.
 
 ## Carl Sagan walk
 
-[Strogatz also talks about the Carl Sagan walk](http://opinionator.blogs.nytimes.com/2012/10/15/visualizing-vastness/), where the planets are represented at real scale somewhere in NY. Where the powers of 10 uses a “multiscale” representation, the Carl-sagan walk "succeeds because its designers chose the right reduction factor and because the six orders of magnitude in the solar system happen to be within our perceptual power to grasp all at once."" 
+[Strogatz also talks about the Carl Sagan walk](http://opinionator.blogs.nytimes.com/2012/10/15/visualizing-vastness/), where the planets are represented at real scale somewhere in NY. Where the powers of 10 uses a “multiscale” representation, the Carl-sagan walk "succeeds because its designers chose the right reduction factor and because the six orders of magnitude in the solar system happen to be within our perceptual power to grasp all at once.""
 
-I think the key here is that we are able to perceive scale much better in 3D than we are looking at a 2D picture. 
+I think the key here is that we are able to perceive scale much better in 3D than we are looking at a 2D picture.
 
 ## 2D pictures
 First couple are by [Bryan Mangum](http://www.alienrobotzombies.com/2012/06/more-planet-size-comparisons.html)
@@ -62,10 +62,10 @@ I like this one, by xkcd artist Randall Munroe, which shows [all The Planets We 
 # Examples with traits
 
 Mark westoby  suggests best expressed in terms of function interested in.
-SLA - LIGHT CPATURE PER DYR MASS  
+SLA - LIGHT CPATURE PER DYR MASS
 Vessel size - conductivity per unit area lumen
 
-This nice image, from 
+This nice image, from
 Finkel et al (2010). “Phytoplankton in a Changing World: Cell Size and Elemental Stoichiometry.” Journal of Plankton Research 32: 119–137. [doi:10.1093/plankt/fbp098](http://dx.doi.org/10.1093/plankt/fbp098).
 
 {% img left http://plankt.oxfordjournals.org/content/32/1/119/F2.large.jpg 500 500%}
