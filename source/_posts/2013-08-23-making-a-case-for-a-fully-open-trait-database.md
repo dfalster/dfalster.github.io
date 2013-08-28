@@ -175,3 +175,7 @@ Although not all of these people necessarily agree with sentiments expressed in 
 If you agree with the sentiments expressed in this post, feel contact me to add your name to the list below. Conversely, if you disagree with the sentiments expressed in this post, feel free to post your thoughts elsewhere online and send me a link to your post. In the interest of providing healthy discussion, I will add a link to your post below.
 
 You can contact me via [twitter](https://twitter.com/adaptive_plant), [email](mailto:daniel.falster@mq.edu.au?subject=Open trait data) or by adding an issue to this [github repo](https://github.com/dfalster/CaseForOpenTraitData/issues).
+
+# Responses
+
+Jens Kattge and Gerhard Boenisch, the main organisers of TRY, have posted [a response to my letter on the TRY website](http://www.try-db.org/TryWeb/Contact.php). I would like to thank Jens and Gerhard for reading my post and responding to the issues raised.
