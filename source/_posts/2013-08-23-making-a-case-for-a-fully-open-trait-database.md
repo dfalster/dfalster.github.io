@@ -179,3 +179,12 @@ You can contact me via [twitter](https://twitter.com/adaptive_plant), [email](ma
 # Responses
 
 Jens Kattge and Gerhard Boenisch, the main organisers of TRY, have posted [a response to my letter on the TRY website](http://www.try-db.org/TryWeb/Contact.php). I would like to thank Jens and Gerhard for reading my post and responding to the issues raised.
+
+# Edits
+
+Some more resources I became aware of, after making this post:
+
+* Whitlock, M.C. (2011) Data archiving in ecology and evolution: best practices. Trends in Ecology & Evolution, 26, 61–65. [DOI: 10.1016/j.tree.2010.11.006](http://doi.org/10.1016/j.tree.2010.11.006)
+* [The Panton Principles](http://pantonprinciples.org/): Principles for Open Data in Science. States *"Science is based on building on, reusing and openly criticising the published body of scientific knowledge.
+For science to effectively function, and for society to reap the full benefits from scientific endeavours, it is crucial that science data be made open."*
+* [Open Definitionn](http://opendefinition.org/) sets out principles that define “openness” in relation to data and content. States *“A piece of data or content is open if anyone is free to use, reuse, and redistribute it — subject only, at most, to the requirement to attribute and/or share-alike.”*. See full definition [here](http://opendefinition.org/okd/).
