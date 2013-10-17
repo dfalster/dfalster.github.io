@@ -6,6 +6,7 @@ comments: true
 categories:
 twitter:
 ---
+{% img left http://farm8.staticflickr.com/7371/8932842668_86193b5e8b_q_d.jpg 150 150 %}
 
 Here is a talk I presented at the workshop "[Trait-based approaches to Ocean Life"](http://trait-based-workshop.dk/), held in Copenhagen (Denmark) from 26-28 August 2013 at the Royal Danish Academy of Sciences and Letters (H.C. Andersens Boulevard 35, Copenhagen, Denmark). The workshop was organised by the [Centre for Ocean Life](http://www.oceanlifecentre.dk/). I was invited to give an overview of trait based approaches in plant ecology. <!-- more -->
 
