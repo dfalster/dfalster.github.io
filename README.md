@@ -1,6 +1,6 @@
 # dfalster.github.io
 
-My website is now hosted by netifly at danielfalster.netlify.com
+My website is now hosted by netifly at [danielfalster.netlify.com](https://danielfalster.netlify.com].
 
 The page index.html redirects any traffic coming to dfalster.github.io to the new site. 
 
